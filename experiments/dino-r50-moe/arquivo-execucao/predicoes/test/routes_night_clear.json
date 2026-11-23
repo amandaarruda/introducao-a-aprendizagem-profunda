@@ -1,0 +1,1402 @@
+[
+  {
+    "image_id": 177,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/015af63d-df1ef690.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0029810897540301085,
+      "day_foggy": 0.00042816580389626324,
+      "dusk_rainy": 1.0034194019681308e-05,
+      "night_clear": 0.9964187145233154,
+      "night_rainy": 0.00016199355013668537
+    }
+  },
+  {
+    "image_id": 366,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/02ef72c1-5ee7012d.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.006841777823865414,
+      "day_foggy": 0.00017427549755666405,
+      "dusk_rainy": 7.795267265464645e-06,
+      "night_clear": 0.9916651844978333,
+      "night_rainy": 0.0013109681895002723
+    }
+  },
+  {
+    "image_id": 465,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/039f729b-8878b974.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.013620855286717415,
+      "day_foggy": 0.0002443328849039972,
+      "dusk_rainy": 4.608108793036081e-05,
+      "night_clear": 0.9846067428588867,
+      "night_rainy": 0.0014819566858932376
+    }
+  },
+  {
+    "image_id": 1155,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/0924b40b-748ac7ce.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.03632238507270813,
+      "day_foggy": 0.0003800966951530427,
+      "dusk_rainy": 0.00029977300437167287,
+      "night_clear": 0.9616630673408508,
+      "night_rainy": 0.0013345824554562569
+    }
+  },
+  {
+    "image_id": 1285,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/0a218ad4-286d38d1.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.007283313665539026,
+      "day_foggy": 0.0008809032733552158,
+      "dusk_rainy": 1.4165568245516624e-05,
+      "night_clear": 0.9904966354370117,
+      "night_rainy": 0.0013251053169369698
+    }
+  },
+  {
+    "image_id": 1350,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/0abf21f6-e0708227.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.005067028570920229,
+      "day_foggy": 0.0001468539994675666,
+      "dusk_rainy": 1.711997902020812e-05,
+      "night_clear": 0.9937578439712524,
+      "night_rainy": 0.0010111351730301976
+    }
+  },
+  {
+    "image_id": 1375,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/0b005d7a-2e065d34.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0013571351300925016,
+      "day_foggy": 0.0006952906842343509,
+      "dusk_rainy": 0.00012208936095703393,
+      "night_clear": 0.995281994342804,
+      "night_rainy": 0.0025434582494199276
+    }
+  },
+  {
+    "image_id": 1485,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/0bc4a672-7ab359c4.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.029572218656539917,
+      "day_foggy": 0.0005748668918386102,
+      "dusk_rainy": 0.0003114790888503194,
+      "night_clear": 0.9669337868690491,
+      "night_rainy": 0.002607691567391157
+    }
+  },
+  {
+    "image_id": 1733,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/0d8ec51b-a906a896.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.015041693113744259,
+      "day_foggy": 0.0004391345428302884,
+      "dusk_rainy": 0.0004847625968977809,
+      "night_clear": 0.9818102121353149,
+      "night_rainy": 0.0022241822443902493
+    }
+  },
+  {
+    "image_id": 2169,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/11808408-d6649ca4.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.007881789468228817,
+      "day_foggy": 0.00030179155874066055,
+      "dusk_rainy": 5.900724863749929e-05,
+      "night_clear": 0.9897568821907043,
+      "night_rainy": 0.0020005193073302507
+    }
+  },
+  {
+    "image_id": 3438,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/1b478831-ae29c2e2.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.00427487725391984,
+      "day_foggy": 0.00037550131673924625,
+      "dusk_rainy": 5.013435657019727e-05,
+      "night_clear": 0.994247317314148,
+      "night_rainy": 0.0010521858930587769
+    }
+  },
+  {
+    "image_id": 3645,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/1d13b435-731b399b.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.002253100275993347,
+      "day_foggy": 0.0014045484131202102,
+      "dusk_rainy": 5.3199317335383967e-05,
+      "night_clear": 0.9921838641166687,
+      "night_rainy": 0.004105244297534227
+    }
+  },
+  {
+    "image_id": 3793,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/1e13bc3b-742dea7d.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0060385242104530334,
+      "day_foggy": 0.000378074764739722,
+      "dusk_rainy": 6.439308344852179e-05,
+      "night_clear": 0.9892047047615051,
+      "night_rainy": 0.004314292222261429
+    }
+  },
+  {
+    "image_id": 4366,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/221d2ebc-0fd22bf1.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.06363148242235184,
+      "day_foggy": 0.04574412852525711,
+      "dusk_rainy": 0.026630600914359093,
+      "night_clear": 0.8235092163085938,
+      "night_rainy": 0.04048459976911545
+    }
+  },
+  {
+    "image_id": 4475,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/22e04a4f-5e65edc2.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.04489196464419365,
+      "day_foggy": 0.0011232949327677488,
+      "dusk_rainy": 0.0003747325681615621,
+      "night_clear": 0.9515028595924377,
+      "night_rainy": 0.0021071904338896275
+    }
+  },
+  {
+    "image_id": 4503,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/231b2c4f-aa9b410d.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0005898299859836698,
+      "day_foggy": 0.00013019234756939113,
+      "dusk_rainy": 9.62127887760289e-06,
+      "night_clear": 0.998514711856842,
+      "night_rainy": 0.0007556112250313163
+    }
+  },
+  {
+    "image_id": 4768,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/24d41f7d-4f1e3504.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.02180388756096363,
+      "day_foggy": 0.0014719241298735142,
+      "dusk_rainy": 0.0001490225113229826,
+      "night_clear": 0.9707286357879639,
+      "night_rainy": 0.005846475716680288
+    }
+  },
+  {
+    "image_id": 5977,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/2df1ae3d-e7d04ad8.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.010605384595692158,
+      "day_foggy": 0.0006709281005896628,
+      "dusk_rainy": 0.0007303080637939274,
+      "night_clear": 0.9862433075904846,
+      "night_rainy": 0.0017500362591817975
+    }
+  },
+  {
+    "image_id": 6151,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/2f34cbe7-b6dd5e9a.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0035184714943170547,
+      "day_foggy": 0.0014894516207277775,
+      "dusk_rainy": 3.1818297429708764e-05,
+      "night_clear": 0.9920454025268555,
+      "night_rainy": 0.002914861775934696
+    }
+  },
+  {
+    "image_id": 6445,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/318ff922-49bf660e.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.04121839627623558,
+      "day_foggy": 0.0009215790196321905,
+      "dusk_rainy": 8.574550884077325e-05,
+      "night_clear": 0.9537639021873474,
+      "night_rainy": 0.004010315518826246
+    }
+  },
+  {
+    "image_id": 6460,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/31ab8fee-d48ade12.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.1320936381816864,
+      "day_foggy": 0.00209077843464911,
+      "dusk_rainy": 0.0009411993669345975,
+      "night_clear": 0.8559398651123047,
+      "night_rainy": 0.008934459649026394
+    }
+  },
+  {
+    "image_id": 7365,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/38a9a91f-16401979.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.033454228192567825,
+      "day_foggy": 0.0026254854165017605,
+      "dusk_rainy": 7.744717004243284e-05,
+      "night_clear": 0.9580081701278687,
+      "night_rainy": 0.005834567826241255
+    }
+  },
+  {
+    "image_id": 7527,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/39c7da0f-981b5650.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.009074961766600609,
+      "day_foggy": 0.004766381345689297,
+      "dusk_rainy": 0.0005746475071646273,
+      "night_clear": 0.9522245526313782,
+      "night_rainy": 0.03335950896143913
+    }
+  },
+  {
+    "image_id": 7617,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/3a8bd6ca-b3f07032.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0016444888897240162,
+      "day_foggy": 0.0002987959887832403,
+      "dusk_rainy": 4.3893767724512145e-05,
+      "night_clear": 0.9965906143188477,
+      "night_rainy": 0.0014222218887880445
+    }
+  },
+  {
+    "image_id": 7742,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/3b6a9c88-86d32389.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.03373149782419205,
+      "day_foggy": 0.0005388419958762825,
+      "dusk_rainy": 8.816307672532275e-05,
+      "night_clear": 0.9645909070968628,
+      "night_rainy": 0.0010506012476980686
+    }
+  },
+  {
+    "image_id": 8221,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/3f140017-23ccfdc0.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0038413444999605417,
+      "day_foggy": 0.0013144465629011393,
+      "dusk_rainy": 0.00032809399999678135,
+      "night_clear": 0.9910233020782471,
+      "night_rainy": 0.0034928692039102316
+    }
+  },
+  {
+    "image_id": 9454,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/4923bc51-69f34b85.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.03183517977595329,
+      "day_foggy": 0.0037956698797643185,
+      "dusk_rainy": 0.0011470871977508068,
+      "night_clear": 0.9586032032966614,
+      "night_rainy": 0.004618920385837555
+    }
+  },
+  {
+    "image_id": 9542,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/49cf8611-05263bee.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.059965673834085464,
+      "day_foggy": 0.0035572636406868696,
+      "dusk_rainy": 0.0006976407603360713,
+      "night_clear": 0.9175498485565186,
+      "night_rainy": 0.01822950690984726
+    }
+  },
+  {
+    "image_id": 9547,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/49d1c659-406d9a1a.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0011247321963310242,
+      "day_foggy": 0.0005221194005571306,
+      "dusk_rainy": 6.615983875235543e-05,
+      "night_clear": 0.9914773106575012,
+      "night_rainy": 0.00680959690362215
+    }
+  },
+  {
+    "image_id": 9561,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/49e19a0d-9a5ac429.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0017501978436484933,
+      "day_foggy": 0.00033060487476177514,
+      "dusk_rainy": 1.9490042177494615e-05,
+      "night_clear": 0.9975110292434692,
+      "night_rainy": 0.000388691812986508
+    }
+  },
+  {
+    "image_id": 9722,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/4b41e4a2-afb38e55.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.005388995166867971,
+      "day_foggy": 0.0007572351023554802,
+      "dusk_rainy": 2.5492568966001272e-05,
+      "night_clear": 0.9929042458534241,
+      "night_rainy": 0.000923973333556205
+    }
+  },
+  {
+    "image_id": 9798,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/4bb769f4-1c452c57.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0038490586448460817,
+      "day_foggy": 0.00019865334616042674,
+      "dusk_rainy": 5.305357262841426e-05,
+      "night_clear": 0.9953866600990295,
+      "night_rainy": 0.0005125888274051249
+    }
+  },
+  {
+    "image_id": 9875,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/4c2e602e-95d73820.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.005115905310958624,
+      "day_foggy": 0.00016829992819111794,
+      "dusk_rainy": 9.975374268833548e-06,
+      "night_clear": 0.9941892623901367,
+      "night_rainy": 0.0005166243063285947
+    }
+  },
+  {
+    "image_id": 10124,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/4e2f4c5e-e4e03007.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.009297183714807034,
+      "day_foggy": 0.007144708186388016,
+      "dusk_rainy": 5.533500370802358e-05,
+      "night_clear": 0.9719537496566772,
+      "night_rainy": 0.011548996903002262
+    }
+  },
+  {
+    "image_id": 10879,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/53b56aa8-e2b890b9.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0038582761771976948,
+      "day_foggy": 0.0005248296074569225,
+      "dusk_rainy": 4.371953764348291e-05,
+      "night_clear": 0.987276017665863,
+      "night_rainy": 0.008297205902636051
+    }
+  },
+  {
+    "image_id": 11386,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/57c4b923-d6f7a0b3.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.007308573927730322,
+      "day_foggy": 0.0007226672023534775,
+      "dusk_rainy": 4.0406281186733395e-05,
+      "night_clear": 0.9868543148040771,
+      "night_rainy": 0.00507405586540699
+    }
+  },
+  {
+    "image_id": 11473,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/58b239db-0af1c78c.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.012931261211633682,
+      "day_foggy": 0.00018145139620173723,
+      "dusk_rainy": 9.955126733984798e-05,
+      "night_clear": 0.9836819767951965,
+      "night_rainy": 0.0031057260930538177
+    }
+  },
+  {
+    "image_id": 11492,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/58e0268a-c1710654.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.009711102582514286,
+      "day_foggy": 0.0006932063261047006,
+      "dusk_rainy": 5.920469629927538e-05,
+      "night_clear": 0.9884191751480103,
+      "night_rainy": 0.0011172720696777105
+    }
+  },
+  {
+    "image_id": 11603,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/59aad6f2-9d3466db.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0011675783898681402,
+      "day_foggy": 0.0020544149447232485,
+      "dusk_rainy": 3.496414137771353e-05,
+      "night_clear": 0.9906550049781799,
+      "night_rainy": 0.006088037043809891
+    }
+  },
+  {
+    "image_id": 11700,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/5a580a40-26619aed.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.01872849650681019,
+      "day_foggy": 0.00037419324507936835,
+      "dusk_rainy": 4.697469557868317e-05,
+      "night_clear": 0.979931652545929,
+      "night_rainy": 0.0009187407558783889
+    }
+  },
+  {
+    "image_id": 12034,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/5d137856-18b573fa.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.021642249077558517,
+      "day_foggy": 0.0009246432455256581,
+      "dusk_rainy": 0.0001260935387108475,
+      "night_clear": 0.9751061201095581,
+      "night_rainy": 0.002200907561928034
+    }
+  },
+  {
+    "image_id": 12498,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/60a372a9-38c63f38.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.013147234916687012,
+      "day_foggy": 0.00022869084205012769,
+      "dusk_rainy": 7.064588862704113e-05,
+      "night_clear": 0.9853259325027466,
+      "night_rainy": 0.0012274372857064009
+    }
+  },
+  {
+    "image_id": 12503,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/60a69f48-72b715be.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.003568289801478386,
+      "day_foggy": 0.0025545437820255756,
+      "dusk_rainy": 0.00016714965749997646,
+      "night_clear": 0.9893614649772644,
+      "night_rainy": 0.004348600748926401
+    }
+  },
+  {
+    "image_id": 13017,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/64d4c6e9-4603d4b2.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "day_clear",
+    "selected_model": "baseline_day_clear",
+    "probabilities": {
+      "day_clear": 0.6296346783638,
+      "day_foggy": 0.0037639823276549578,
+      "dusk_rainy": 0.015475302003324032,
+      "night_clear": 0.34428906440734863,
+      "night_rainy": 0.006836887914687395
+    }
+  },
+  {
+    "image_id": 13108,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/657de0e2-a6ea8b16.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.1062784194946289,
+      "day_foggy": 0.0011598817072808743,
+      "dusk_rainy": 0.00043157470645383,
+      "night_clear": 0.8846948146820068,
+      "night_rainy": 0.007435291074216366
+    }
+  },
+  {
+    "image_id": 13283,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/66d668dd-6c8b0cc3.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.011023582890629768,
+      "day_foggy": 0.00020032985776197165,
+      "dusk_rainy": 6.46803091512993e-05,
+      "night_clear": 0.9798669815063477,
+      "night_rainy": 0.00884436909109354
+    }
+  },
+  {
+    "image_id": 13876,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/6b969d80-c33d9afc.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0203810166567564,
+      "day_foggy": 0.0002347282279515639,
+      "dusk_rainy": 1.2544933269964531e-05,
+      "night_clear": 0.9785862565040588,
+      "night_rainy": 0.0007854774594306946
+    }
+  },
+  {
+    "image_id": 13975,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/6c77e0e8-5347e36a.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0009293226175941527,
+      "day_foggy": 0.004807502496987581,
+      "dusk_rainy": 0.0001684503658907488,
+      "night_clear": 0.99212247133255,
+      "night_rainy": 0.0019722694996744394
+    }
+  },
+  {
+    "image_id": 14399,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/6fe7d6af-761b8b8d.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.01718490570783615,
+      "day_foggy": 0.00016078868065960705,
+      "dusk_rainy": 0.00014367331459652632,
+      "night_clear": 0.9814391732215881,
+      "night_rainy": 0.0010714370291680098
+    }
+  },
+  {
+    "image_id": 14492,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/708e765c-dfb89140.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.004928601905703545,
+      "day_foggy": 0.0001066343393176794,
+      "dusk_rainy": 2.1317899154382758e-05,
+      "night_clear": 0.9947503209114075,
+      "night_rainy": 0.00019310659263283014
+    }
+  },
+  {
+    "image_id": 14505,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/70aaa60c-f5321bef.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.004008393734693527,
+      "day_foggy": 0.0002738561015576124,
+      "dusk_rainy": 0.00017094105714932084,
+      "night_clear": 0.9941508173942566,
+      "night_rainy": 0.0013958943309262395
+    }
+  },
+  {
+    "image_id": 14642,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/71cafb37-a64bb953.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.012785685248672962,
+      "day_foggy": 0.0007286168984137475,
+      "dusk_rainy": 0.00030436989618465304,
+      "night_clear": 0.9792417883872986,
+      "night_rainy": 0.00693953363224864
+    }
+  },
+  {
+    "image_id": 14891,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/737dea5f-e8078dc5.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0044316137209534645,
+      "day_foggy": 0.0002682421763893217,
+      "dusk_rainy": 9.618029253033455e-06,
+      "night_clear": 0.9944697618484497,
+      "night_rainy": 0.0008207227801904082
+    }
+  },
+  {
+    "image_id": 14985,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/743d9b42-23d60761.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.005392476450651884,
+      "day_foggy": 8.559605339542031e-05,
+      "dusk_rainy": 1.4511671906802803e-05,
+      "night_clear": 0.9935749173164368,
+      "night_rainy": 0.0009324674610979855
+    }
+  },
+  {
+    "image_id": 15126,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/754374b3-1b375441.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.017470194026827812,
+      "day_foggy": 0.0004948696005158126,
+      "dusk_rainy": 0.00012315787898842245,
+      "night_clear": 0.9806070327758789,
+      "night_rainy": 0.0013047343818470836
+    }
+  },
+  {
+    "image_id": 15387,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/7761e293-58f5e4b8.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0036458508111536503,
+      "day_foggy": 0.00028139937785454094,
+      "dusk_rainy": 3.2219533750321716e-05,
+      "night_clear": 0.9955247640609741,
+      "night_rainy": 0.0005157759296707809
+    }
+  },
+  {
+    "image_id": 15551,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/78b703a0-80d01dd9.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.00432937266305089,
+      "day_foggy": 0.00020124594448134303,
+      "dusk_rainy": 5.901482654735446e-05,
+      "night_clear": 0.9949133396148682,
+      "night_rainy": 0.0004969634464941919
+    }
+  },
+  {
+    "image_id": 15649,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/798d82f8-8048e44d.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.008037399500608444,
+      "day_foggy": 0.00017139429110102355,
+      "dusk_rainy": 1.5017799341876525e-05,
+      "night_clear": 0.9905465841293335,
+      "night_rainy": 0.0012296709464862943
+    }
+  },
+  {
+    "image_id": 15685,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/79d3941e-edaf5f2e.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.00929216854274273,
+      "day_foggy": 0.0001873260480351746,
+      "dusk_rainy": 8.865922427503392e-05,
+      "night_clear": 0.9870769381523132,
+      "night_rainy": 0.0033549205400049686
+    }
+  },
+  {
+    "image_id": 15988,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/7c0ec925-d72ac647.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.07267478853464127,
+      "day_foggy": 0.000699886935763061,
+      "dusk_rainy": 0.00019215581414755434,
+      "night_clear": 0.9211652278900146,
+      "night_rainy": 0.005267912521958351
+    }
+  },
+  {
+    "image_id": 16226,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/7e028cea-fe820d81.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.004509433638304472,
+      "day_foggy": 0.00012659146159421653,
+      "dusk_rainy": 1.717241684673354e-05,
+      "night_clear": 0.9947457313537598,
+      "night_rainy": 0.0006010315846651793
+    }
+  },
+  {
+    "image_id": 16422,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/7fabc42d-14e6652c.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0033768985886126757,
+      "day_foggy": 5.899240932194516e-05,
+      "dusk_rainy": 9.943166332959663e-06,
+      "night_clear": 0.9956448078155518,
+      "night_rainy": 0.0009093987755477428
+    }
+  },
+  {
+    "image_id": 16443,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/7fd35c7e-13e0bf76.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0045539033599197865,
+      "day_foggy": 0.0002841181121766567,
+      "dusk_rainy": 0.0007528681890107691,
+      "night_clear": 0.9894718527793884,
+      "night_rainy": 0.004937237128615379
+    }
+  },
+  {
+    "image_id": 16650,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/81d6715c-00879766.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.003740974934771657,
+      "day_foggy": 0.002594912890344858,
+      "dusk_rainy": 0.00189945416059345,
+      "night_clear": 0.940095841884613,
+      "night_rainy": 0.05166872218251228
+    }
+  },
+  {
+    "image_id": 16939,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/842b5a98-718b3cb6.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0033576965797692537,
+      "day_foggy": 5.4726417147321627e-05,
+      "dusk_rainy": 3.042003845621366e-05,
+      "night_clear": 0.9950509667396545,
+      "night_rainy": 0.001506243017502129
+    }
+  },
+  {
+    "image_id": 17020,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/84a1aadf-d5b96550.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0021031389478594065,
+      "day_foggy": 0.0018244136590510607,
+      "dusk_rainy": 0.00011005711712641641,
+      "night_clear": 0.991792619228363,
+      "night_rainy": 0.004169710911810398
+    }
+  },
+  {
+    "image_id": 17810,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/8ab28912-f1146503.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.006262963637709618,
+      "day_foggy": 0.0027163412887603045,
+      "dusk_rainy": 2.6762247216538526e-05,
+      "night_clear": 0.9878730773925781,
+      "night_rainy": 0.0031208919826895
+    }
+  },
+  {
+    "image_id": 18188,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/8dd0f4fa-c30b802a.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0073662735521793365,
+      "day_foggy": 0.0008761187200434506,
+      "dusk_rainy": 0.0004840912006329745,
+      "night_clear": 0.9890866279602051,
+      "night_rainy": 0.0021868334151804447
+    }
+  },
+  {
+    "image_id": 18419,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/8f5f86c7-4e184ba9.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.05393652617931366,
+      "day_foggy": 0.025226403027772903,
+      "dusk_rainy": 0.0003996252780780196,
+      "night_clear": 0.9166717529296875,
+      "night_rainy": 0.0037656419444829226
+    }
+  },
+  {
+    "image_id": 18619,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/91126a54-891d1bd9.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0024566040374338627,
+      "day_foggy": 8.007980068214238e-05,
+      "dusk_rainy": 4.736087703349767e-06,
+      "night_clear": 0.9969620108604431,
+      "night_rainy": 0.0004965541302226484
+    }
+  },
+  {
+    "image_id": 18763,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/92751aa0-b1900990.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.006820739712566137,
+      "day_foggy": 0.06431890279054642,
+      "dusk_rainy": 0.02693449705839157,
+      "night_clear": 0.8601067066192627,
+      "night_rainy": 0.041819170117378235
+    }
+  },
+  {
+    "image_id": 18877,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/936ebd07-dd66b32a.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.001934073748998344,
+      "day_foggy": 0.0018168628448620439,
+      "dusk_rainy": 4.048362825415097e-05,
+      "night_clear": 0.9906603693962097,
+      "night_rainy": 0.0055481200106441975
+    }
+  },
+  {
+    "image_id": 19128,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/9577d7c3-ccb30ff7.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.022266210988163948,
+      "day_foggy": 0.0002959822304546833,
+      "dusk_rainy": 9.950812091119587e-05,
+      "night_clear": 0.9718995690345764,
+      "night_rainy": 0.005438733845949173
+    }
+  },
+  {
+    "image_id": 19325,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/973275d9-24e882e6.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.001956692198291421,
+      "day_foggy": 0.00014782309881411493,
+      "dusk_rainy": 1.653860272199381e-05,
+      "night_clear": 0.9970307350158691,
+      "night_rainy": 0.0008481653057970107
+    }
+  },
+  {
+    "image_id": 19517,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/98de2d01-73cdb938.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.007440096233040094,
+      "day_foggy": 8.355002501048148e-05,
+      "dusk_rainy": 2.1802936316817068e-05,
+      "night_clear": 0.9907941222190857,
+      "night_rainy": 0.001660525449551642
+    }
+  },
+  {
+    "image_id": 20044,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/9cd62b61-c2717673.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.00016947826952673495,
+      "day_foggy": 0.0010485770180821419,
+      "dusk_rainy": 6.028543793945573e-05,
+      "night_clear": 0.9920847415924072,
+      "night_rainy": 0.006637022830545902
+    }
+  },
+  {
+    "image_id": 20462,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/a01ff535-4a9ea854.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0018464120803400874,
+      "day_foggy": 0.00023652955133002251,
+      "dusk_rainy": 0.00011159916175529361,
+      "night_clear": 0.9920952916145325,
+      "night_rainy": 0.005710199940949678
+    }
+  },
+  {
+    "image_id": 20667,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/a1ce7bef-9019c338.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.01122118066996336,
+      "day_foggy": 0.00014680308231618255,
+      "dusk_rainy": 3.896837733918801e-05,
+      "night_clear": 0.9881304502487183,
+      "night_rainy": 0.0004626536974683404
+    }
+  },
+  {
+    "image_id": 20829,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/a2f20747-70c793f4.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.00293285446241498,
+      "day_foggy": 0.0009777360828593373,
+      "dusk_rainy": 2.909284012275748e-05,
+      "night_clear": 0.9956268072128296,
+      "night_rainy": 0.00043351761996746063
+    }
+  },
+  {
+    "image_id": 20840,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/a2fbafba-98e2a506.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.005271162837743759,
+      "day_foggy": 0.0002769524871837348,
+      "dusk_rainy": 1.0854280844796449e-05,
+      "night_clear": 0.9937692284584045,
+      "night_rainy": 0.0006717586657032371
+    }
+  },
+  {
+    "image_id": 21444,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/a75f21aa-af69c1ec.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.006871617864817381,
+      "day_foggy": 0.00018912336963694543,
+      "dusk_rainy": 2.17550914385356e-05,
+      "night_clear": 0.9920074939727783,
+      "night_rainy": 0.0009099695598706603
+    }
+  },
+  {
+    "image_id": 21859,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/aaa27775-78f4d55c.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.15683364868164062,
+      "day_foggy": 0.0010258775437250733,
+      "dusk_rainy": 0.0017105680890381336,
+      "night_clear": 0.8397130370140076,
+      "night_rainy": 0.0007169118616729975
+    }
+  },
+  {
+    "image_id": 21934,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/ab463abf-2767461b.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0016611001919955015,
+      "day_foggy": 0.001038172747939825,
+      "dusk_rainy": 0.00012362519919406623,
+      "night_clear": 0.98215252161026,
+      "night_rainy": 0.015024625696241856
+    }
+  },
+  {
+    "image_id": 21936,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/ab463abf-e928b71f.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.026705937460064888,
+      "day_foggy": 0.0004905583336949348,
+      "dusk_rainy": 7.415054278681055e-05,
+      "night_clear": 0.9654633402824402,
+      "night_rainy": 0.007266040425747633
+    }
+  },
+  {
+    "image_id": 22247,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/ad7bd963-796bf7a5.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.03692758083343506,
+      "day_foggy": 0.0006605451926589012,
+      "dusk_rainy": 0.0004464909725356847,
+      "night_clear": 0.9445982575416565,
+      "night_rainy": 0.017367109656333923
+    }
+  },
+  {
+    "image_id": 22374,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/ae8327a0-9d6c0133.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0034993330482393503,
+      "day_foggy": 0.00038065985427238047,
+      "dusk_rainy": 0.00011051812180085108,
+      "night_clear": 0.9946560859680176,
+      "night_rainy": 0.0013534171739593148
+    }
+  },
+  {
+    "image_id": 22461,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/af09d01c-a1fa9b4d.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.005929531995207071,
+      "day_foggy": 0.00048243271885439754,
+      "dusk_rainy": 1.71981482708361e-05,
+      "night_clear": 0.9916862845420837,
+      "night_rainy": 0.001884489320218563
+    }
+  },
+  {
+    "image_id": 22619,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/b00f431a-11fe5c23.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.002581544453278184,
+      "day_foggy": 0.0023423240054398775,
+      "dusk_rainy": 3.8196001696633175e-05,
+      "night_clear": 0.9910691976547241,
+      "night_rainy": 0.0039686718955636024
+    }
+  },
+  {
+    "image_id": 23912,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/ba786070-0826a5d7.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.011000650934875011,
+      "day_foggy": 0.0018348621670156717,
+      "dusk_rainy": 0.0001454940065741539,
+      "night_clear": 0.985687792301178,
+      "night_rainy": 0.0013313093222677708
+    }
+  },
+  {
+    "image_id": 24127,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/bc574681-0a675ff3.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.006171863526105881,
+      "day_foggy": 0.0012891038786619902,
+      "dusk_rainy": 0.00017027252761181444,
+      "night_clear": 0.9911017417907715,
+      "night_rainy": 0.0012669621501117945
+    }
+  },
+  {
+    "image_id": 24128,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/bc574681-398fb5d1.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.04882388189435005,
+      "day_foggy": 0.00216551311314106,
+      "dusk_rainy": 0.0017404836835339665,
+      "night_clear": 0.9436850547790527,
+      "night_rainy": 0.0035850382409989834
+    }
+  },
+  {
+    "image_id": 24219,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/bce30c65-fbfaa66a.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0031020964961498976,
+      "day_foggy": 0.00017840429791249335,
+      "dusk_rainy": 5.18414481120999e-06,
+      "night_clear": 0.996250569820404,
+      "night_rainy": 0.0004637689853552729
+    }
+  },
+  {
+    "image_id": 24292,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/bd626633-ad3626a7.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.002922686515375972,
+      "day_foggy": 0.0003234070318285376,
+      "dusk_rainy": 1.182963478640886e-05,
+      "night_clear": 0.9944700002670288,
+      "night_rainy": 0.0022721022833138704
+    }
+  },
+  {
+    "image_id": 24675,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/c00a8f2a-d84a9895.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.003510471899062395,
+      "day_foggy": 0.000931226706597954,
+      "dusk_rainy": 2.6422425435157493e-05,
+      "night_clear": 0.9949406385421753,
+      "night_rainy": 0.000591338612139225
+    }
+  },
+  {
+    "image_id": 24697,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/c0336a86-50bbf914.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.006803944241255522,
+      "day_foggy": 0.0038925448898226023,
+      "dusk_rainy": 5.895329377381131e-05,
+      "night_clear": 0.9821639060974121,
+      "night_rainy": 0.007080629467964172
+    }
+  },
+  {
+    "image_id": 24721,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/c06defbe-c0034220.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.004550089593976736,
+      "day_foggy": 0.0001948149292729795,
+      "dusk_rainy": 0.0007621251861564815,
+      "night_clear": 0.9825794696807861,
+      "night_rainy": 0.011913580819964409
+    }
+  },
+  {
+    "image_id": 24957,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/c1f74dbc-457b1a3a.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.0028486379887908697,
+      "day_foggy": 0.0011891883332282305,
+      "dusk_rainy": 2.29370198212564e-05,
+      "night_clear": 0.9884985089302063,
+      "night_rainy": 0.007440686225891113
+    }
+  },
+  {
+    "image_id": 25112,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/c33a646b-70d40dc3.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.001669516321271658,
+      "day_foggy": 0.00011652018292807043,
+      "dusk_rainy": 4.653807536669774e-06,
+      "night_clear": 0.9977370500564575,
+      "night_rainy": 0.0004721773148048669
+    }
+  },
+  {
+    "image_id": 25834,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/c889c950-865ca5b6.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.005299336276948452,
+      "day_foggy": 0.004915741737931967,
+      "dusk_rainy": 0.02419177256524563,
+      "night_clear": 0.907581627368927,
+      "night_rainy": 0.05801158770918846
+    }
+  },
+  {
+    "image_id": 25863,
+    "path": "<PROJECT_ROOT>/data/raw/dwd/extracted/Night-Sunny/JPEGImages/c8c34ebe-756f7560.jpg",
+    "true_domain": "night_clear",
+    "predicted_domain": "night_clear",
+    "selected_model": "expert_night_clear",
+    "probabilities": {
+      "day_clear": 0.004632745869457722,
+      "day_foggy": 0.0005159044521860778,
+      "dusk_rainy": 0.00016732591029722244,
+      "night_clear": 0.9922823309898376,
+      "night_rainy": 0.0024017617106437683
+    }
+  }
+]

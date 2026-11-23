@@ -1,0 +1,4 @@
+609684840d9afa0309f07809c59dc883ecd234f0086a6c2e8c457f094de856ee  <PROJECT_ROOT>/configs/dino_dwd_finetune_bs8_fullgpu.py
+413762df7f93ba31d50e6352d71ca4151c94463ead72b5013c38c0f5b4597e54  <PROJECT_ROOT>/outputs/dino-moe-experts-16511/day_foggy/iter_12000.pth
+503a119fe8fc216754b2c13bab92aba4ede8b11e8a117710c65aa0273ca524f4  <PROJECT_ROOT>/data/raw/dwd/full-train-frozen-eval-20261005/day_foggy/day_foggy_train.coco.json
+e0d786f73a7c0407bfd6603a64d26666a1afc0e4830699e4adc6892c9ddfaca8  <PROJECT_ROOT>/data/raw/dwd/full-train-frozen-eval-20261005/day_foggy/day_foggy_val.coco.json

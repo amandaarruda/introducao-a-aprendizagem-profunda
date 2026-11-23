@@ -1,0 +1,308 @@
+cuda_device= NVIDIA A100 80GB PCIe MIG 1g.10gb capability= (8, 0) smoke= [0, 2, 4, 6]
+job=32453 baseline_job=32364 experts_job=32418 scope=gate_val start=2026-11-21T02:47:48-03:00
+34336c63841841a1313caa10de9a4b10175e19c693b60f165a29f3f3dc2055eb  <PROJECT_ROOT>/scripts/evaluate_moe_gate.py
+f5cb972f814b19816b2ecf9908141e2587f37ea9b3389181da91e485ed1749c8  <PROJECT_ROOT>/configs/vltdet_r101_clip_dayclear_5000_640_30000.py
+38e246201f9f82b4d85537a117445450c3268bee9141d403d77375ca4186f577  <PROJECT_ROOT>/outputs/clip-full-dayclear-32364/moe_models.json
+bf6302f236978d6607f607ff4842c4ecf66e0297079c9ef28372978de26c39b3  <PROJECT_ROOT>/outputs/clip-full-dayclear-32364/moe_route_map.json
+fd56183ca92380d2be99254e318399e72c28fcae035d6876d112595a645777e7  <PROJECT_ROOT>/outputs/domain-gate-clip-rn101-15672/domain_gate_linear.pt
+8fa8567bab74a42d41c5915025a8e4538c3bdbe8804a470a72f30b0d94fab599  <PROJECT_ROOT>/checkpoints/RN101.pt
+b89f07066b65b0b3c5a1e15291175af52dad75906030e2843e2386602db07a89  <PROJECT_ROOT>/data/raw/dwd/full-train-frozen-eval-20261005/split_manifest.json
+f6baacbacf3fcc61ca56ba0173f4f5ff0d37a39ab2a07751f8820013f4938a60  <PROJECT_ROOT>/outputs/vitdet-r101-dayclear-full-640-30000-32364/iter_30000.pth
+fef60440b9ec55adfabb0a4315fd7e0dc93e91840564911fcef8f34baedd2ca8  <PROJECT_ROOT>/outputs/vitdet-r101-clip-full-experts-32418/day_foggy/best_checkpoint_path.txt
+e5c9d973667d21b1efc3ba4219a8313bbe6bbf2db99fa5bdcdd83fd5869ef0e3  <PROJECT_ROOT>/outputs/vitdet-r101-clip-full-experts-32418/dusk_rainy/best_checkpoint_path.txt
+1a0355841a067c4b0d58103abd287949ae1237ba51e5bbf11304f4992d9a297f  <PROJECT_ROOT>/outputs/vitdet-r101-clip-full-experts-32418/night_clear/best_checkpoint_path.txt
+fdbfe5f24146c89bd8aa835673de315181e0cfa26e6540d8dad7364e3afa297a  <PROJECT_ROOT>/outputs/vitdet-r101-clip-full-experts-32418/night_rainy/best_checkpoint_path.txt
+6efc71b8b9cff99b418278118816ac4c041d9f3277e16668eeeef84391932a92  <PROJECT_ROOT>/data/raw/dwd/full-train-frozen-eval-20261005/day_clear/day_clear_gate_val.coco.json
+82c4999bb62f7ac63fe1f0b13a8df58e8d752e77d0f05a09a0db190a0af0d14e  <PROJECT_ROOT>/data/raw/dwd/full-train-frozen-eval-20261005/day_foggy/day_foggy_gate_val.coco.json
+d1cce5f1e7e8e8f2a795ecd27c1cb11712bf5351ee310f5a8f582589d4f4ecb3  <PROJECT_ROOT>/data/raw/dwd/full-train-frozen-eval-20261005/dusk_rainy/dusk_rainy_gate_val.coco.json
+b34c46cec9cbaa5083b00b5b6f60f709961a0f56117edf2cb7cebcde1ce761ad  <PROJECT_ROOT>/data/raw/dwd/full-train-frozen-eval-20261005/night_clear/night_clear_gate_val.coco.json
+185c808b613c14ea035d956d28dfde5e72e979a0bda1372a0a203196175c8257  <PROJECT_ROOT>/data/raw/dwd/full-train-frozen-eval-20261005/night_rainy/night_rainy_gate_val.coco.json
+<PROJECT_ROOT>/.venv-ligia/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+<PROJECT_ROOT>/.venv-ligia/lib/python3.10/site-packages/torch/serialization.py:995: UserWarning: 'torch.load' received a zip file that looks like a TorchScript archive dispatching to 'torch.jit.load' (call 'torch.jit.load' directly to silence this warning)
+  warnings.warn("'torch.load' received a zip file that looks like a TorchScript archive"
+Loads checkpoint by local backend from path: <PROJECT_ROOT>/outputs/vitdet-r101-dayclear-full-640-30000-32364/iter_30000.pth
+Loads checkpoint by local backend from path: <PROJECT_ROOT>/outputs/vitdet-r101-clip-full-experts-32418/day_foggy/best_coco_bbox_mAP_50_iter_11000.pth
+Loads checkpoint by local backend from path: <PROJECT_ROOT>/outputs/vitdet-r101-clip-full-experts-32418/dusk_rainy/best_coco_bbox_mAP_50_iter_11000.pth
+Loads checkpoint by local backend from path: <PROJECT_ROOT>/outputs/vitdet-r101-clip-full-experts-32418/night_clear/best_coco_bbox_mAP_50_iter_11000.pth
+Loads checkpoint by local backend from path: <PROJECT_ROOT>/outputs/vitdet-r101-clip-full-experts-32418/night_rainy/best_coco_bbox_mAP_50_iter_12000.pth
+domain=day_clear images=25/100 routed=baseline_day_clear
+domain=day_clear images=50/100 routed=baseline_day_clear
+domain=day_clear images=75/100 routed=baseline_day_clear
+domain=day_clear images=100/100 routed=baseline_day_clear
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.04s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=1.95s).
+Accumulating evaluation results...
+DONE (t=0.23s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.201
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.344
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.212
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.027
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.241
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.598
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.209
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.275
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.281
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.031
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.313
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.688
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.04s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=1.95s).
+Accumulating evaluation results...
+DONE (t=0.23s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.201
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.343
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.212
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.027
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.241
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.598
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.209
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.275
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.281
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.030
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.313
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.688
+{"domain": "day_clear", "baseline_mAP50": 0.34350859216373014, "moe_mAP50": 0.34343177790344986, "standalone_mAP50": {}, "selected_model_counts": {"clip_expert_dusk_rainy": 2, "baseline_day_clear": 98}}
+domain=day_foggy images=25/100 routed=clip_expert_day_foggy
+domain=day_foggy images=50/100 routed=clip_expert_day_foggy
+domain=day_foggy images=75/100 routed=clip_expert_day_foggy
+domain=day_foggy images=100/100 routed=clip_expert_day_foggy
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.05s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=2.36s).
+Accumulating evaluation results...
+DONE (t=0.27s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.120
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.207
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.114
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.001
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.062
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.262
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.130
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.196
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.207
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.116
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.412
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.09s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=3.36s).
+Accumulating evaluation results...
+DONE (t=0.37s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.164
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.268
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.172
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.064
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.378
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.141
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.237
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.249
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.141
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.518
+{"domain": "day_foggy", "baseline_mAP50": 0.20665455355486806, "moe_mAP50": 0.26767233994708034, "standalone_mAP50": {}, "selected_model_counts": {"clip_expert_dusk_rainy": 2, "clip_expert_day_foggy": 98}}
+domain=dusk_rainy images=25/100 routed=clip_expert_dusk_rainy
+domain=dusk_rainy images=50/100 routed=clip_expert_dusk_rainy
+domain=dusk_rainy images=75/100 routed=clip_expert_dusk_rainy
+domain=dusk_rainy images=100/100 routed=clip_expert_dusk_rainy
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.41s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=2.04s).
+Accumulating evaluation results...
+DONE (t=0.25s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.083
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.175
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.075
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.064
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.104
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.149
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.112
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.196
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.207
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.069
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.226
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.278
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.06s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=2.28s).
+Accumulating evaluation results...
+DONE (t=0.27s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.134
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.269
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.100
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.008
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.166
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.240
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.119
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.200
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.212
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.013
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.244
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.369
+{"domain": "dusk_rainy", "baseline_mAP50": 0.1747442104508825, "moe_mAP50": 0.26924193320940215, "standalone_mAP50": {}, "selected_model_counts": {"clip_expert_dusk_rainy": 93, "baseline_day_clear": 2, "clip_expert_night_rainy": 5}}
+domain=night_clear images=25/100 routed=clip_expert_night_clear
+domain=night_clear images=50/100 routed=clip_expert_night_clear
+domain=night_clear images=75/100 routed=clip_expert_night_clear
+domain=night_clear images=100/100 routed=clip_expert_night_clear
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.05s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=1.85s).
+Accumulating evaluation results...
+DONE (t=0.24s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.106
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.179
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.090
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.003
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.069
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.390
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.112
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.195
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.202
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.006
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.159
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.514
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.42s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=1.62s).
+Accumulating evaluation results...
+DONE (t=0.21s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.122
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.220
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.127
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.006
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.072
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.429
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.130
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.189
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.195
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.012
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.145
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.487
+{"domain": "night_clear", "baseline_mAP50": 0.1794640247880837, "moe_mAP50": 0.22043904388387645, "standalone_mAP50": {}, "selected_model_counts": {"clip_expert_night_clear": 100}}
+domain=night_rainy images=25/100 routed=clip_expert_night_rainy
+domain=night_rainy images=50/100 routed=clip_expert_night_rainy
+domain=night_rainy images=75/100 routed=clip_expert_night_rainy
+domain=night_rainy images=100/100 routed=clip_expert_night_rainy
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.05s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=2.18s).
+Accumulating evaluation results...
+DONE (t=0.23s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.090
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.163
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.110
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.003
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.038
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.231
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.119
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.173
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.179
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.007
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.128
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.360
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.08s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=2.88s).
+Accumulating evaluation results...
+DONE (t=0.25s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.079
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.157
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.078
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.006
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.061
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.220
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.108
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.151
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.162
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.015
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.126
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.376
+{"domain": "night_rainy", "baseline_mAP50": 0.16253138611812304, "moe_mAP50": 0.1572470213461137, "standalone_mAP50": {}, "selected_model_counts": {"clip_expert_night_rainy": 99, "clip_expert_dusk_rainy": 1}}
+MOE_REPORT=<PROJECT_ROOT>/outputs/clip-full-dayclear-32364/gateval-32453/moe_evaluation.md
+MOE_RESULTS=<PROJECT_ROOT>/outputs/clip-full-dayclear-32364/gateval-32453/moe_evaluation.json
+0b563a75ed5d751ebfbe9e39f7416ca85990c75ce489aa9287591cc983c6077c  <PROJECT_ROOT>/outputs/clip-full-dayclear-32364/gateval-32453/moe_evaluation.md
+b3ca0a1c9a8d86125ba15c6ffe11a9cc4ae03e1f0853e029f5c9fec59977875a  <PROJECT_ROOT>/outputs/clip-full-dayclear-32364/gateval-32453/moe_evaluation.json
+job=32453 gateval_finished=2026-11-21T02:54:39-03:00 review_before_test=1

@@ -1,0 +1,8 @@
+GPU 0: NVIDIA A100 80GB PCIe (UUID: GPU-3713ead6-92b3-f047-72d6-9ecf7250660f)
+name, memory.total [MiB], memory.free [MiB]
+NVIDIA A100 80GB PCIe, 81920 MiB, 81153 MiB
+cuda_device_0= NVIDIA A100 80GB PCIe total_memory_gib= 79.25 capability= (8, 0)
+cuda_smoke_0= [0, 2, 4, 6]
+candidate_begin job=32562 domain=night_rainy lr=8e-5 batch_size=8 start=2026-11-21T19:38:18-03:00
+b3f97f166d335888aa3ac33ef07e5c135cf32e595ca0a4436e1dab6ed1873692  <PROJECT_ROOT>/outputs/dino-r50-finetune-debug-bs8-32562/night_rainy/lr_8e-5_bs8/best_coco_bbox_mAP_50_iter_250.pth
+candidate_complete job=32562 domain=night_rainy end=2026-11-21T19:52:26-03:00

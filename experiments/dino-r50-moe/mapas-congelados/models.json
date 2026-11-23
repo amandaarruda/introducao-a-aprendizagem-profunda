@@ -1,0 +1,22 @@
+{
+  "baseline_day_clear": {
+    "config": "<experiment-root>/configs/dino_dwd_full.py",
+    "checkpoint": "<experiment-root>/outputs/dino-dayclear-full-16511/iter_30000.pth"
+  },
+  "expert_day_foggy": {
+    "config": "<experiment-root>/configs/dino_dwd_full.py",
+    "checkpoint": "<experiment-root>/outputs/dino-moe-experts-16511/day_foggy/iter_12000.pth"
+  },
+  "expert_dusk_rainy": {
+    "config": "<experiment-root>/configs/dino_dwd_full.py",
+    "checkpoint": "<experiment-root>/outputs/dino-moe-experts-16511/dusk_rainy/iter_12000.pth"
+  },
+  "expert_night_clear": {
+    "config": "<experiment-root>/configs/dino_dwd_full.py",
+    "checkpoint": "<experiment-root>/outputs/dino-moe-experts-16511/night_clear/iter_12000.pth"
+  },
+  "expert_night_rainy": {
+    "config": "<experiment-root>/configs/dino_dwd_full.py",
+    "checkpoint": "<experiment-root>/outputs/dino-moe-experts-16511/night_rainy/iter_12000.pth"
+  }
+}

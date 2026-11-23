@@ -1,0 +1,17 @@
+# Datasets, checkpoints and full run directories stay outside Git.
+# Selected logs, resolved configs and predictions are archived under experiments/*/arquivo-execucao/.
+data/**
+!data/README.md
+checkpoints/**
+!checkpoints/README.md
+outputs/**
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+*.onnx
+.pytest_cache/
+.ruff_cache/
+.DS_Store

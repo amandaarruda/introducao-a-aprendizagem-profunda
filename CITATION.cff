@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Código dos experimentos de detecção em condições adversas (CLIP RN101 VLTDet e DINO ResNet-50). Dados DWD e modelos de terceiros têm termos próprios."
+title: "Detecção em condições adversas com CLIP RN101 VLTDet e DINO ResNet-50"
+type: software
+license: MIT
+version: 1.0.0
+authors:
+  - name: "LIGIA VDet-MoE contributors"

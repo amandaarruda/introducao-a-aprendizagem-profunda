@@ -1,0 +1,4 @@
+609684840d9afa0309f07809c59dc883ecd234f0086a6c2e8c457f094de856ee  <PROJECT_ROOT>/configs/dino_dwd_finetune_bs8_fullgpu.py
+08f7cab81eaaf487774365127c49335429b39d46454ef6c27237c59aa71f1561  <PROJECT_ROOT>/outputs/dino-moe-experts-16511/dusk_rainy/iter_12000.pth
+bdc4e4ac1792f7e2478a736c5f7c44b864676be5b53c7e784cd2b8fe550b697a  <PROJECT_ROOT>/data/raw/dwd/full-train-frozen-eval-20261005/dusk_rainy/dusk_rainy_train.coco.json
+10e91003f64a87641f3f8df8b39bbc8a1434b05da2a9e98ee5eb2f0392a9b68d  <PROJECT_ROOT>/data/raw/dwd/full-train-frozen-eval-20261005/dusk_rainy/dusk_rainy_val.coco.json

@@ -1,0 +1,621 @@
+{
+  "scope": "test",
+  "annotation_note": "gate_val used for gate validation/selection; test allowed only after model and route-map freeze",
+  "score_threshold": 0.05,
+  "route_map": {
+    "day_clear": "baseline_day_clear",
+    "day_foggy": "clip_expert_day_foggy",
+    "dusk_rainy": "clip_expert_dusk_rainy",
+    "night_clear": "clip_expert_night_clear",
+    "night_rainy": "clip_expert_night_rainy"
+  },
+  "gate_checkpoint": "<PROJECT_ROOT>/outputs/domain-gate-clip-rn101-15672/domain_gate_linear.pt",
+  "gate_checkpoint_sha256": "fd56183ca92380d2be99254e318399e72c28fcae035d6876d112595a645777e7",
+  "gate_encoder": "clip-rn101",
+  "dayclear_test_manifest": null,
+  "dayclear_test_manifest_sha256": null,
+  "models": {
+    "baseline_day_clear": {
+      "config": "<PROJECT_ROOT>/configs/vltdet_r101_clip_dayclear_5000_640_30000.py",
+      "checkpoint": "<PROJECT_ROOT>/outputs/vitdet-r101-dayclear-full-640-30000-32364/iter_30000.pth",
+      "checkpoint_sha256": "f6baacbacf3fcc61ca56ba0173f4f5ff0d37a39ab2a07751f8820013f4938a60"
+    },
+    "clip_expert_day_foggy": {
+      "config": "<PROJECT_ROOT>/configs/vltdet_r101_clip_dayclear_5000_640_30000.py",
+      "checkpoint": "<PROJECT_ROOT>/outputs/vitdet-r101-clip-full-experts-32418/day_foggy/best_coco_bbox_mAP_50_iter_11000.pth",
+      "checkpoint_sha256": "b728ad55a951134aecd282de915a1dee5f52f81b9b75bffe3608ab6dc5fb7d4a"
+    },
+    "clip_expert_dusk_rainy": {
+      "config": "<PROJECT_ROOT>/configs/vltdet_r101_clip_dayclear_5000_640_30000.py",
+      "checkpoint": "<PROJECT_ROOT>/outputs/vitdet-r101-clip-full-experts-32418/dusk_rainy/best_coco_bbox_mAP_50_iter_11000.pth",
+      "checkpoint_sha256": "76dbeadcec907d4a8316c9206827852429f15ebc194ca0cf1c94d97d1e8ff4ed"
+    },
+    "clip_expert_night_clear": {
+      "config": "<PROJECT_ROOT>/configs/vltdet_r101_clip_dayclear_5000_640_30000.py",
+      "checkpoint": "<PROJECT_ROOT>/outputs/vitdet-r101-clip-full-experts-32418/night_clear/best_coco_bbox_mAP_50_iter_11000.pth",
+      "checkpoint_sha256": "04c1c38744f7f5b36fbf46110c7fa2fea86cc83ab5c7ff75ade1d7344885ba58"
+    },
+    "clip_expert_night_rainy": {
+      "config": "<PROJECT_ROOT>/configs/vltdet_r101_clip_dayclear_5000_640_30000.py",
+      "checkpoint": "<PROJECT_ROOT>/outputs/vitdet-r101-clip-full-experts-32418/night_rainy/best_coco_bbox_mAP_50_iter_12000.pth",
+      "checkpoint_sha256": "98eb3695efb55c189a98a7e9b22ccf4ee4919d1911a1d183a9a8208179e451aa"
+    }
+  },
+  "domains": {
+    "day_clear": {
+      "images": 100,
+      "baseline": {
+        "AP_50_95": 0.15077441697414937,
+        "AP_50": 0.2522321907620317,
+        "AP_75": 0.15450160925406897,
+        "AP_small": 0.009431250872549243,
+        "AP_medium": 0.19426899765855674,
+        "AP_large": 0.32478414057922916,
+        "per_class": {
+          "bus": {
+            "AP_50_95": 0.3808103745894952,
+            "AP_50": 0.49723448023535394,
+            "ground_truth": 14
+          },
+          "bike": {
+            "AP_50_95": 0.027573911237277576,
+            "AP_50": 0.07910791079107911,
+            "ground_truth": 25
+          },
+          "car": {
+            "AP_50_95": 0.3168131183431357,
+            "AP_50": 0.5205922565344052,
+            "ground_truth": 1122
+          },
+          "motor": {
+            "AP_50_95": 0.007425742574257425,
+            "AP_50": 0.024752475247524754,
+            "ground_truth": 7
+          },
+          "person": {
+            "AP_50_95": 0.07067317114909248,
+            "AP_50": 0.18951432205002722,
+            "ground_truth": 155
+          },
+          "rider": {
+            "AP_50_95": 0.05603386425599082,
+            "AP_50": 0.14571674558760223,
+            "ground_truth": 14
+          },
+          "truck": {
+            "AP_50_95": 0.19609073666979637,
+            "AP_50": 0.30870714488822937,
+            "ground_truth": 57
+          }
+        }
+      },
+      "moe": {
+        "AP_50_95": 0.15225313027284434,
+        "AP_50": 0.2541358103207646,
+        "AP_75": 0.156329748357169,
+        "AP_small": 0.00945777922224761,
+        "AP_medium": 0.19431265064770697,
+        "AP_large": 0.32741774437473026,
+        "per_class": {
+          "bus": {
+            "AP_50_95": 0.3909753910911453,
+            "AP_50": 0.5099407508624166,
+            "ground_truth": 14
+          },
+          "bike": {
+            "AP_50_95": 0.027573911237277576,
+            "AP_50": 0.07910791079107911,
+            "ground_truth": 25
+          },
+          "car": {
+            "AP_50_95": 0.31694103059813383,
+            "AP_50": 0.521018311348929,
+            "ground_truth": 1122
+          },
+          "motor": {
+            "AP_50_95": 0.007425742574257425,
+            "AP_50": 0.024752475247524754,
+            "ground_truth": 7
+          },
+          "person": {
+            "AP_50_95": 0.07069092841354895,
+            "AP_50": 0.1896084064547814,
+            "ground_truth": 155
+          },
+          "rider": {
+            "AP_50_95": 0.05603386425599082,
+            "AP_50": 0.14571674558760223,
+            "ground_truth": 14
+          },
+          "truck": {
+            "AP_50_95": 0.19613104373955648,
+            "AP_50": 0.30880607195301935,
+            "ground_truth": 57
+          }
+        }
+      },
+      "standalone_models": {},
+      "predicted_domain_counts": {
+        "day_clear": 99,
+        "night_clear": 1
+      },
+      "selected_model_counts": {
+        "baseline_day_clear": 99,
+        "clip_expert_night_clear": 1
+      },
+      "predictions": "<PROJECT_ROOT>/outputs/clip-full-dayclear-32364/test-final-32459/moe_predictions_day_clear.json",
+      "routes": "<PROJECT_ROOT>/outputs/clip-full-dayclear-32364/test-final-32459/routes_day_clear.json"
+    },
+    "day_foggy": {
+      "images": 100,
+      "baseline": {
+        "AP_50_95": 0.1178066489946453,
+        "AP_50": 0.20407612445799567,
+        "AP_75": 0.12116496400371014,
+        "AP_small": 0.0,
+        "AP_medium": 0.06491831918558967,
+        "AP_large": 0.25126353994152706,
+        "per_class": {
+          "bus": {
+            "AP_50_95": 0.09780542688415182,
+            "AP_50": 0.14650611402603672,
+            "ground_truth": 15
+          },
+          "bike": {
+            "AP_50_95": 0.023247925985264616,
+            "AP_50": 0.0756734956798645,
+            "ground_truth": 127
+          },
+          "car": {
+            "AP_50_95": 0.284297351821456,
+            "AP_50": 0.4940784904918389,
+            "ground_truth": 923
+          },
+          "motor": {
+            "AP_50_95": 0.0425927064756165,
+            "AP_50": 0.07478014882233563,
+            "ground_truth": 26
+          },
+          "person": {
+            "AP_50_95": 0.08521912286212785,
+            "AP_50": 0.1893008164745802,
+            "ground_truth": 633
+          },
+          "rider": {
+            "AP_50_95": 0.05409598441716287,
+            "AP_50": 0.1268359556405922,
+            "ground_truth": 68
+          },
+          "truck": {
+            "AP_50_95": 0.23738802451673738,
+            "AP_50": 0.3213578500707213,
+            "ground_truth": 15
+          }
+        }
+      },
+      "moe": {
+        "AP_50_95": 0.14655008091402283,
+        "AP_50": 0.25150670357196614,
+        "AP_75": 0.14912916959371686,
+        "AP_small": 3.536067892503536e-05,
+        "AP_medium": 0.07384213467838979,
+        "AP_large": 0.3527457042491608,
+        "per_class": {
+          "bus": {
+            "AP_50_95": 0.14502223774963996,
+            "AP_50": 0.19931024848516596,
+            "ground_truth": 15
+          },
+          "bike": {
+            "AP_50_95": 0.07117281559124036,
+            "AP_50": 0.1959155120471331,
+            "ground_truth": 127
+          },
+          "car": {
+            "AP_50_95": 0.3171588742248472,
+            "AP_50": 0.5166083459798937,
+            "ground_truth": 923
+          },
+          "motor": {
+            "AP_50_95": 0.05034531710627891,
+            "AP_50": 0.08405738533036976,
+            "ground_truth": 26
+          },
+          "person": {
+            "AP_50_95": 0.11206690389450549,
+            "AP_50": 0.23175848029968873,
+            "ground_truth": 633
+          },
+          "rider": {
+            "AP_50_95": 0.1857543743621848,
+            "AP_50": 0.34095799152351763,
+            "ground_truth": 68
+          },
+          "truck": {
+            "AP_50_95": 0.1443300434694632,
+            "AP_50": 0.19193896133799426,
+            "ground_truth": 15
+          }
+        }
+      },
+      "standalone_models": {},
+      "predicted_domain_counts": {
+        "day_foggy": 100
+      },
+      "selected_model_counts": {
+        "clip_expert_day_foggy": 100
+      },
+      "predictions": "<PROJECT_ROOT>/outputs/clip-full-dayclear-32364/test-final-32459/moe_predictions_day_foggy.json",
+      "routes": "<PROJECT_ROOT>/outputs/clip-full-dayclear-32364/test-final-32459/routes_day_foggy.json"
+    },
+    "dusk_rainy": {
+      "images": 100,
+      "baseline": {
+        "AP_50_95": 0.09214970601114832,
+        "AP_50": 0.18968707948442942,
+        "AP_75": 0.09635676748329748,
+        "AP_small": 0.019984041478634418,
+        "AP_medium": 0.0906148464223772,
+        "AP_large": 0.21523948295231907,
+        "per_class": {
+          "bus": {
+            "AP_50_95": 0.1584195800631444,
+            "AP_50": 0.36587050983090585,
+            "ground_truth": 24
+          },
+          "bike": {
+            "AP_50_95": 0.0001354872329338197,
+            "AP_50": 0.0013548723293381967,
+            "ground_truth": 8
+          },
+          "car": {
+            "AP_50_95": 0.2622393817939897,
+            "AP_50": 0.5139167080185897,
+            "ground_truth": 1013
+          },
+          "motor": {
+            "AP_50_95": 0.030297029702970293,
+            "AP_50": 0.05049504950495049,
+            "ground_truth": 2
+          },
+          "person": {
+            "AP_50_95": 0.06723616180060207,
+            "AP_50": 0.17061608379130536,
+            "ground_truth": 117
+          },
+          "rider": {
+            "AP_50_95": 0.0,
+            "AP_50": 0.0,
+            "ground_truth": 2
+          },
+          "truck": {
+            "AP_50_95": 0.12672030148439792,
+            "AP_50": 0.22555633291591617,
+            "ground_truth": 59
+          }
+        }
+      },
+      "moe": {
+        "AP_50_95": 0.14262633810812797,
+        "AP_50": 0.2312676697422817,
+        "AP_75": 0.15791069081245168,
+        "AP_small": 0.026002666841835425,
+        "AP_medium": 0.11829907379900656,
+        "AP_large": 0.3718705069076022,
+        "per_class": {
+          "bus": {
+            "AP_50_95": 0.23733380845663193,
+            "AP_50": 0.34708978902816395,
+            "ground_truth": 24
+          },
+          "bike": {
+            "AP_50_95": 0.0028602860286028597,
+            "AP_50": 0.0143014301430143,
+            "ground_truth": 8
+          },
+          "car": {
+            "AP_50_95": 0.3245400041903999,
+            "AP_50": 0.558737984941378,
+            "ground_truth": 1013
+          },
+          "motor": {
+            "AP_50_95": 0.17673267326732672,
+            "AP_50": 0.2524752475247525,
+            "ground_truth": 2
+          },
+          "person": {
+            "AP_50_95": 0.07915670841927555,
+            "AP_50": 0.19701935831619488,
+            "ground_truth": 117
+          },
+          "rider": {
+            "AP_50_95": 0.0,
+            "AP_50": 0.0,
+            "ground_truth": 2
+          },
+          "truck": {
+            "AP_50_95": 0.17776088639465878,
+            "AP_50": 0.24924987824246833,
+            "ground_truth": 59
+          }
+        }
+      },
+      "standalone_models": {},
+      "predicted_domain_counts": {
+        "dusk_rainy": 96,
+        "night_rainy": 3,
+        "day_foggy": 1
+      },
+      "selected_model_counts": {
+        "clip_expert_dusk_rainy": 96,
+        "clip_expert_night_rainy": 3,
+        "clip_expert_day_foggy": 1
+      },
+      "predictions": "<PROJECT_ROOT>/outputs/clip-full-dayclear-32364/test-final-32459/moe_predictions_dusk_rainy.json",
+      "routes": "<PROJECT_ROOT>/outputs/clip-full-dayclear-32364/test-final-32459/routes_dusk_rainy.json"
+    },
+    "night_clear": {
+      "images": 100,
+      "baseline": {
+        "AP_50_95": 0.13734113726036035,
+        "AP_50": 0.2827130925528499,
+        "AP_75": 0.12331260998734524,
+        "AP_small": 0.008645722290468734,
+        "AP_medium": 0.1800443491710519,
+        "AP_large": 0.2486022662114166,
+        "per_class": {
+          "bus": {
+            "AP_50_95": 0.17610709147837855,
+            "AP_50": 0.29051789794364047,
+            "ground_truth": 7
+          },
+          "bike": {
+            "AP_50_95": 0.19669966996699667,
+            "AP_50": 0.3399339933993399,
+            "ground_truth": 4
+          },
+          "car": {
+            "AP_50_95": 0.21882621504787259,
+            "AP_50": 0.45424566222042884,
+            "ground_truth": 907
+          },
+          "motor": {
+            "AP_50_95": 0.049999999999999996,
+            "AP_50": 0.1666666666666667,
+            "ground_truth": 1
+          },
+          "person": {
+            "AP_50_95": 0.05836316557352091,
+            "AP_50": 0.14300485796871698,
+            "ground_truth": 44
+          },
+          "rider": {
+            "AP_50_95": 0.11096181046676093,
+            "AP_50": 0.2857142857142856,
+            "ground_truth": 2
+          },
+          "truck": {
+            "AP_50_95": 0.1504300082889929,
+            "AP_50": 0.2989082839568705,
+            "ground_truth": 22
+          }
+        }
+      },
+      "moe": {
+        "AP_50_95": 0.15291740245605678,
+        "AP_50": 0.27553528105070957,
+        "AP_75": 0.1453568613025286,
+        "AP_small": 0.013087464192023945,
+        "AP_medium": 0.22413821615064103,
+        "AP_large": 0.24852978787298838,
+        "per_class": {
+          "bus": {
+            "AP_50_95": 0.322074707470747,
+            "AP_50": 0.556975697569757,
+            "ground_truth": 7
+          },
+          "bike": {
+            "AP_50_95": 0.009193776520509192,
+            "AP_50": 0.018387553041018388,
+            "ground_truth": 4
+          },
+          "car": {
+            "AP_50_95": 0.2628213615003467,
+            "AP_50": 0.5206009843709527,
+            "ground_truth": 907
+          },
+          "motor": {
+            "AP_50_95": 0.0,
+            "AP_50": 0.0,
+            "ground_truth": 1
+          },
+          "person": {
+            "AP_50_95": 0.06504064199929072,
+            "AP_50": 0.16145458582873481,
+            "ground_truth": 44
+          },
+          "rider": {
+            "AP_50_95": 0.17673267326732672,
+            "AP_50": 0.2524752475247525,
+            "ground_truth": 2
+          },
+          "truck": {
+            "AP_50_95": 0.2345586564341772,
+            "AP_50": 0.41885289901975203,
+            "ground_truth": 22
+          }
+        }
+      },
+      "standalone_models": {},
+      "predicted_domain_counts": {
+        "night_clear": 99,
+        "day_clear": 1
+      },
+      "selected_model_counts": {
+        "clip_expert_night_clear": 99,
+        "baseline_day_clear": 1
+      },
+      "predictions": "<PROJECT_ROOT>/outputs/clip-full-dayclear-32364/test-final-32459/moe_predictions_night_clear.json",
+      "routes": "<PROJECT_ROOT>/outputs/clip-full-dayclear-32364/test-final-32459/routes_night_clear.json"
+    },
+    "night_rainy": {
+      "images": 100,
+      "baseline": {
+        "AP_50_95": 0.043549787884374316,
+        "AP_50": 0.08352138439699652,
+        "AP_75": 0.0408049097575875,
+        "AP_small": 0.0025231772747961855,
+        "AP_medium": 0.016463603413743498,
+        "AP_large": 0.10251732269372936,
+        "per_class": {
+          "bus": {
+            "AP_50_95": 0.20757027315634788,
+            "AP_50": 0.3371837183718372,
+            "ground_truth": 10
+          },
+          "bike": {
+            "AP_50_95": 0.0,
+            "AP_50": 0.0,
+            "ground_truth": 6
+          },
+          "car": {
+            "AP_50_95": 0.09631288658697275,
+            "AP_50": 0.2435186605081546,
+            "ground_truth": 878
+          },
+          "motor": {
+            "AP_50_95": 0.0,
+            "AP_50": 0.0,
+            "ground_truth": 1
+          },
+          "person": {
+            "AP_50_95": 0.00025267177001254005,
+            "AP_50": 0.0007299406689251157,
+            "ground_truth": 25
+          },
+          "rider": {
+            "AP_50_95": 0.0,
+            "AP_50": 0.0,
+            "ground_truth": 3
+          },
+          "truck": {
+            "AP_50_95": 0.0007126836772870428,
+            "AP_50": 0.003217371230058778,
+            "ground_truth": 22
+          }
+        }
+      },
+      "moe": {
+        "AP_50_95": 0.09212209813035663,
+        "AP_50": 0.15531232307812476,
+        "AP_75": 0.09828684449929176,
+        "AP_small": 0.0019715433894797814,
+        "AP_medium": 0.07920529387237056,
+        "AP_large": 0.22652747300148615,
+        "per_class": {
+          "bus": {
+            "AP_50_95": 0.37690102343567694,
+            "AP_50": 0.582074874154082,
+            "ground_truth": 10
+          },
+          "bike": {
+            "AP_50_95": 0.0,
+            "AP_50": 0.0,
+            "ground_truth": 6
+          },
+          "car": {
+            "AP_50_95": 0.2193734481025733,
+            "AP_50": 0.40474040722420085,
+            "ground_truth": 878
+          },
+          "motor": {
+            "AP_50_95": 0.0,
+            "AP_50": 0.0,
+            "ground_truth": 1
+          },
+          "person": {
+            "AP_50_95": 0.0011320419390745873,
+            "AP_50": 0.004234454174413845,
+            "ground_truth": 25
+          },
+          "rider": {
+            "AP_50_95": 0.0,
+            "AP_50": 0.0,
+            "ground_truth": 3
+          },
+          "truck": {
+            "AP_50_95": 0.04744817343517154,
+            "AP_50": 0.09613652599417644,
+            "ground_truth": 22
+          }
+        }
+      },
+      "standalone_models": {},
+      "predicted_domain_counts": {
+        "night_rainy": 96,
+        "dusk_rainy": 4
+      },
+      "selected_model_counts": {
+        "clip_expert_night_rainy": 96,
+        "clip_expert_dusk_rainy": 4
+      },
+      "predictions": "<PROJECT_ROOT>/outputs/clip-full-dayclear-32364/test-final-32459/moe_predictions_night_rainy.json",
+      "routes": "<PROJECT_ROOT>/outputs/clip-full-dayclear-32364/test-final-32459/routes_night_rainy.json"
+    }
+  },
+  "gate": {
+    "domain_accuracy": 0.98,
+    "confusion_matrix_rows_true_cols_predicted": [
+      [
+        99,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        100,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        96,
+        0,
+        3
+      ],
+      [
+        1,
+        0,
+        0,
+        99,
+        0
+      ],
+      [
+        0,
+        0,
+        4,
+        0,
+        96
+      ]
+    ],
+    "domain_order": [
+      "day_clear",
+      "day_foggy",
+      "dusk_rainy",
+      "night_clear",
+      "night_rainy"
+    ],
+    "routed_image_counts_by_model": {
+      "baseline_day_clear": 100,
+      "clip_expert_night_clear": 100,
+      "clip_expert_day_foggy": 101,
+      "clip_expert_dusk_rainy": 100,
+      "clip_expert_night_rainy": 99
+    }
+  },
+  "elapsed_seconds": 259.1502480506897
+}

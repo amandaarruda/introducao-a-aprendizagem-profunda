@@ -1,0 +1,529 @@
+{
+  "qualitative_only": true,
+  "source_selection_manifest": "experiments/dino-r50-moe/galerias/por-categoria/samples.json",
+  "split": "frozen test sample IDs; qualitative display only",
+  "selection_reused_exactly": true,
+  "experiment": "clip-full-baseline",
+  "reference": "DINO original routed MoE",
+  "score_threshold": 0.05,
+  "rendered_total": 50,
+  "counts_by_domain": {
+    "night_clear": 6,
+    "dusk_rainy": 12,
+    "day_clear": 13,
+    "night_rainy": 3,
+    "day_foggy": 16
+  },
+  "counts_by_focus": {
+    "bus": 7,
+    "bike": 7,
+    "car": 7,
+    "motor": 7,
+    "person": 7,
+    "rider": 7,
+    "truck": 7,
+    "overall": 1
+  },
+  "samples": [
+    {
+      "rank": 1,
+      "focus": "bus",
+      "domain": "night_clear",
+      "image_id": 9542,
+      "image_file": "49cf8611-05263bee.jpg",
+      "figure": "01_bus_night_clear_id9542.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 2,
+      "focus": "bus",
+      "domain": "dusk_rainy",
+      "image_id": 3145,
+      "image_file": "c2e294a9-07a2a060.jpg",
+      "figure": "02_bus_dusk_rainy_id3145.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 3,
+      "focus": "bus",
+      "domain": "dusk_rainy",
+      "image_id": 3259,
+      "image_file": "c7bc6671-fc3f4552.jpg",
+      "figure": "03_bus_dusk_rainy_id3259.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 4,
+      "focus": "bus",
+      "domain": "dusk_rainy",
+      "image_id": 3110,
+      "image_file": "c124e51c-52e077cb.jpg",
+      "figure": "04_bus_dusk_rainy_id3110.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 5,
+      "focus": "bus",
+      "domain": "dusk_rainy",
+      "image_id": 369,
+      "image_file": "185382a2-93596865.jpg",
+      "figure": "05_bus_dusk_rainy_id369.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 6,
+      "focus": "bus",
+      "domain": "day_clear",
+      "image_id": 4997,
+      "image_file": "23baaec2-a78f598c.jpg",
+      "figure": "06_bus_day_clear_id4997.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 7,
+      "focus": "bus",
+      "domain": "night_rainy",
+      "image_id": 1922,
+      "image_file": "99996a1e-8bebd0ca.jpg",
+      "figure": "07_bus_night_rainy_id1922.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 8,
+      "focus": "bike",
+      "domain": "day_foggy",
+      "image_id": 2920,
+      "image_file": "target_strasbourg_000001_017469_leftImg8bit_foggy_beta_0.02.jpg",
+      "figure": "08_bike_day_foggy_id2920.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 9,
+      "focus": "bike",
+      "domain": "day_foggy",
+      "image_id": 3354,
+      "image_file": "target_tubingen_000081_000019_leftImg8bit_foggy_beta_0.02.jpg",
+      "figure": "09_bike_day_foggy_id3354.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 10,
+      "focus": "bike",
+      "domain": "night_clear",
+      "image_id": 17810,
+      "image_file": "8ab28912-f1146503.jpg",
+      "figure": "10_bike_night_clear_id17810.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 11,
+      "focus": "bike",
+      "domain": "night_clear",
+      "image_id": 15126,
+      "image_file": "754374b3-1b375441.jpg",
+      "figure": "11_bike_night_clear_id15126.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 12,
+      "focus": "bike",
+      "domain": "day_foggy",
+      "image_id": 3623,
+      "image_file": "target_weimar_000111_000019_leftImg8bit_foggy_beta_0.02.jpg",
+      "figure": "12_bike_day_foggy_id3623.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 13,
+      "focus": "bike",
+      "domain": "night_clear",
+      "image_id": 6460,
+      "image_file": "31ab8fee-d48ade12.jpg",
+      "figure": "13_bike_night_clear_id6460.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 14,
+      "focus": "bike",
+      "domain": "day_clear",
+      "image_id": 27186,
+      "image_file": "c6a2100d-d6e54e21.jpg",
+      "figure": "14_bike_day_clear_id27186.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 15,
+      "focus": "car",
+      "domain": "dusk_rainy",
+      "image_id": 2182,
+      "image_file": "882d1cae-dfb29da3.jpg",
+      "figure": "15_car_dusk_rainy_id2182.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 16,
+      "focus": "car",
+      "domain": "dusk_rainy",
+      "image_id": 3409,
+      "image_file": "rain_storm-419.jpg",
+      "figure": "16_car_dusk_rainy_id3409.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 17,
+      "focus": "car",
+      "domain": "day_clear",
+      "image_id": 4093,
+      "image_file": "1da55794-79577e5b.jpg",
+      "figure": "17_car_day_clear_id4093.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 18,
+      "focus": "car",
+      "domain": "day_foggy",
+      "image_id": 145,
+      "image_file": "haze-050.jpg",
+      "figure": "18_car_day_foggy_id145.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 19,
+      "focus": "car",
+      "domain": "dusk_rainy",
+      "image_id": 1864,
+      "image_file": "756fb9c1-9e434e0a.jpg",
+      "figure": "19_car_dusk_rainy_id1864.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 20,
+      "focus": "car",
+      "domain": "day_clear",
+      "image_id": 3355,
+      "image_file": "1812c350-cc47cd78.jpg",
+      "figure": "20_car_day_clear_id3355.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 21,
+      "focus": "car",
+      "domain": "day_clear",
+      "image_id": 8661,
+      "image_file": "3f55b260-3883d101.jpg",
+      "figure": "21_car_day_clear_id8661.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 22,
+      "focus": "motor",
+      "domain": "day_clear",
+      "image_id": 2042,
+      "image_file": "0e77d441-592efe4b.jpg",
+      "figure": "22_motor_day_clear_id2042.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 23,
+      "focus": "motor",
+      "domain": "day_foggy",
+      "image_id": 1954,
+      "image_file": "target_hamburg_000000_099902_leftImg8bit_foggy_beta_0.02.jpg",
+      "figure": "23_motor_day_foggy_id1954.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 24,
+      "focus": "motor",
+      "domain": "night_rainy",
+      "image_id": 2474,
+      "image_file": "c90ff73f-d76cc0c4.jpg",
+      "figure": "24_motor_night_rainy_id2474.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 25,
+      "focus": "motor",
+      "domain": "day_clear",
+      "image_id": 22783,
+      "image_file": "a785d0e2-379005a0.jpg",
+      "figure": "25_motor_day_clear_id22783.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 26,
+      "focus": "motor",
+      "domain": "dusk_rainy",
+      "image_id": 1776,
+      "image_file": "70798395-32cb1f49.jpg",
+      "figure": "26_motor_dusk_rainy_id1776.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 27,
+      "focus": "motor",
+      "domain": "day_clear",
+      "image_id": 2879,
+      "image_file": "14e765c9-84f7f9d5.jpg",
+      "figure": "27_motor_day_clear_id2879.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 28,
+      "focus": "motor",
+      "domain": "night_clear",
+      "image_id": 18188,
+      "image_file": "8dd0f4fa-c30b802a.jpg",
+      "figure": "28_motor_night_clear_id18188.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 29,
+      "focus": "person",
+      "domain": "dusk_rainy",
+      "image_id": 185,
+      "image_file": "0cc6dc2e-abf312a7.jpg",
+      "figure": "29_person_dusk_rainy_id185.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 30,
+      "focus": "person",
+      "domain": "day_clear",
+      "image_id": 20010,
+      "image_file": "93a93708-3a1f173f.jpg",
+      "figure": "30_person_day_clear_id20010.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 31,
+      "focus": "person",
+      "domain": "day_clear",
+      "image_id": 16221,
+      "image_file": "77c581fe-002d847d.jpg",
+      "figure": "31_person_day_clear_id16221.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 32,
+      "focus": "person",
+      "domain": "day_foggy",
+      "image_id": 3301,
+      "image_file": "target_tubingen_000028_000019_leftImg8bit_foggy_beta_0.02.jpg",
+      "figure": "32_person_day_foggy_id3301.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 33,
+      "focus": "person",
+      "domain": "dusk_rainy",
+      "image_id": 2393,
+      "image_file": "95ba3fda-2a557ef3.jpg",
+      "figure": "33_person_dusk_rainy_id2393.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 34,
+      "focus": "person",
+      "domain": "day_foggy",
+      "image_id": 1838,
+      "image_file": "target_hamburg_000000_057487_leftImg8bit_foggy_beta_0.02.jpg",
+      "figure": "34_person_day_foggy_id1838.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 35,
+      "focus": "person",
+      "domain": "day_foggy",
+      "image_id": 3421,
+      "image_file": "target_ulm_000004_000019_leftImg8bit_foggy_beta_0.02.jpg",
+      "figure": "35_person_day_foggy_id3421.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 36,
+      "focus": "rider",
+      "domain": "day_foggy",
+      "image_id": 743,
+      "image_file": "target_bremen_000172_000019_leftImg8bit_foggy_beta_0.02.jpg",
+      "figure": "36_rider_day_foggy_id743.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 37,
+      "focus": "rider",
+      "domain": "day_foggy",
+      "image_id": 706,
+      "image_file": "target_bremen_000135_000019_leftImg8bit_foggy_beta_0.02.jpg",
+      "figure": "37_rider_day_foggy_id706.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 38,
+      "focus": "rider",
+      "domain": "day_foggy",
+      "image_id": 2397,
+      "image_file": "target_lindau_000012_000019_leftImg8bit_foggy_beta_0.02.jpg",
+      "figure": "38_rider_day_foggy_id2397.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 39,
+      "focus": "rider",
+      "domain": "day_foggy",
+      "image_id": 757,
+      "image_file": "target_bremen_000186_000019_leftImg8bit_foggy_beta_0.02.jpg",
+      "figure": "39_rider_day_foggy_id757.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 40,
+      "focus": "rider",
+      "domain": "day_foggy",
+      "image_id": 1515,
+      "image_file": "target_frankfurt_000001_004859_leftImg8bit_foggy_beta_0.02.jpg",
+      "figure": "40_rider_day_foggy_id1515.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 41,
+      "focus": "rider",
+      "domain": "day_foggy",
+      "image_id": 2396,
+      "image_file": "target_lindau_000011_000019_leftImg8bit_foggy_beta_0.02.jpg",
+      "figure": "41_rider_day_foggy_id2396.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 42,
+      "focus": "rider",
+      "domain": "day_foggy",
+      "image_id": 1816,
+      "image_file": "target_hamburg_000000_048494_leftImg8bit_foggy_beta_0.02.jpg",
+      "figure": "42_rider_day_foggy_id1816.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 43,
+      "focus": "truck",
+      "domain": "night_clear",
+      "image_id": 4768,
+      "image_file": "24d41f7d-4f1e3504.jpg",
+      "figure": "43_truck_night_clear_id4768.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 44,
+      "focus": "truck",
+      "domain": "day_clear",
+      "image_id": 4967,
+      "image_file": "23791456-b4190ecc.jpg",
+      "figure": "44_truck_day_clear_id4967.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 45,
+      "focus": "truck",
+      "domain": "night_rainy",
+      "image_id": 474,
+      "image_file": "2a34d980-c09dbb8f.jpg",
+      "figure": "45_truck_night_rainy_id474.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 46,
+      "focus": "truck",
+      "domain": "day_clear",
+      "image_id": 10166,
+      "image_file": "4a955cb1-9a948893.jpg",
+      "figure": "46_truck_day_clear_id10166.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 47,
+      "focus": "truck",
+      "domain": "day_clear",
+      "image_id": 25182,
+      "image_file": "b8afaffa-21f32286.jpg",
+      "figure": "47_truck_day_clear_id25182.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 48,
+      "focus": "truck",
+      "domain": "dusk_rainy",
+      "image_id": 3294,
+      "image_file": "ca25cf74-7cb42159.jpg",
+      "figure": "48_truck_dusk_rainy_id3294.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 49,
+      "focus": "truck",
+      "domain": "dusk_rainy",
+      "image_id": 1779,
+      "image_file": "7098c3d9-e0d9058d.jpg",
+      "figure": "49_truck_dusk_rainy_id1779.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    },
+    {
+      "rank": 50,
+      "focus": "overall",
+      "domain": "day_foggy",
+      "image_id": 1643,
+      "image_file": "target_frankfurt_000001_054640_leftImg8bit_foggy_beta_0.02.jpg",
+      "figure": "50_overall_day_foggy_id1643.png",
+      "reference": "DINO original routed MoE predictions",
+      "experiment": "clip-full-baseline"
+    }
+  ]
+}

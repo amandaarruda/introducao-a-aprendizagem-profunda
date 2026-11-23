@@ -1,0 +1,4 @@
+609684840d9afa0309f07809c59dc883ecd234f0086a6c2e8c457f094de856ee  <PROJECT_ROOT>/configs/dino_dwd_finetune_bs8_fullgpu.py
+e8347ab73321e4d7227b944b7bcdc7d49f50016cee21739ca218960da9e3fa31  <PROJECT_ROOT>/outputs/dino-moe-experts-16511/night_rainy/iter_12000.pth
+e28f78e8326a37adaed6e8e6aa482510cb61e2fddddfa5946501a6a76c4c9d97  <PROJECT_ROOT>/data/raw/dwd/full-train-frozen-eval-20261005/night_rainy/night_rainy_train.coco.json
+023e6b5b8db1d7575c075c90dafd1987a996585c21289fbca5a1682c419360da  <PROJECT_ROOT>/data/raw/dwd/full-train-frozen-eval-20261005/night_rainy/night_rainy_val.coco.json

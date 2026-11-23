@@ -1,0 +1,7 @@
+{
+  "day_clear": "baseline_day_clear",
+  "day_foggy": "expert_day_foggy",
+  "dusk_rainy": "expert_dusk_rainy",
+  "night_clear": "expert_night_clear",
+  "night_rainy": "expert_night_rainy"
+}

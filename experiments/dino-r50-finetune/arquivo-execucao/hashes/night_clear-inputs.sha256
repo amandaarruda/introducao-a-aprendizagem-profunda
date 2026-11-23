@@ -1,0 +1,4 @@
+609684840d9afa0309f07809c59dc883ecd234f0086a6c2e8c457f094de856ee  <PROJECT_ROOT>/configs/dino_dwd_finetune_bs8_fullgpu.py
+32f505a4aaff92751a3f87a2a371bdfccb375c94eb70b5c30e214337cd5c2a97  <PROJECT_ROOT>/outputs/dino-moe-experts-16511/night_clear/iter_12000.pth
+579e4adcd183ce9f8386ba06011fe2cf150211b4f23f861e60fbee7025d451d3  <PROJECT_ROOT>/data/raw/dwd/full-train-frozen-eval-20261005/night_clear/night_clear_train.coco.json
+b1fd32de0837d036f9d4bf4a90e01790032cd8d2914441f687fb5763d243cb2f  <PROJECT_ROOT>/data/raw/dwd/full-train-frozen-eval-20261005/night_clear/night_clear_val.coco.json
